@@ -21,10 +21,10 @@ body{
     text-align: center;
     font-weight: bold;
 }
-.quote img{
+.photos {
     margin: 5px;
     height: 200px;
-    width: fit-content;
+    width: 100%;
 }
 .show{
     margin: auto;
