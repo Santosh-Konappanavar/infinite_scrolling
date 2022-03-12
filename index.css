@@ -1,0 +1,44 @@
+body{
+    background-color: teal;
+}.container h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(212, 207, 200);
+}
+.quote > *{
+    padding: 10px;
+    margin: auto;
+}
+
+.quote{
+    background-color: bisque;
+    float: left;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:10px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.quote img{
+    margin: 5px;
+    height: 200px;
+    width: fit-content;
+}
+.show{
+    margin: auto;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid blue;
+    border-right: 5px solid green;
+    border-bottom: 5px solid red;
+    border-left: 5px solid pink;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
